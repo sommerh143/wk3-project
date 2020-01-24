@@ -5,6 +5,7 @@ $(function(){
     var number = parseInt($("input#Entered").val());
     var test = Array(number += 1).fill(0).map((x, y) => x + y);
     var testone = test.toString();
+    var test2 = testone.replace( 1/g , "Boo!");
     // for(var i = 0; i <test.length;  i+= 1)
     // {
     //      if (test[i] === 1) {
@@ -16,6 +17,6 @@ $(function(){
     //   }
      
     // }
-    console.log(testone);
+    console.log(test2);
   })
 })
