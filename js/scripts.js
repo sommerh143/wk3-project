@@ -10,15 +10,15 @@ $(function(){
       if(test[i] === 1) {
        test[i]="Boo!"
        console.log(test);
-      }else{
-        console.log(number);
       }
-     if(test[i] === 2 ){
+      else if(test[i] === 2 ) {
       test[i] = "Bop!";
       console.log(test);
-    } else {
-      console.log(test);
-    }
+      }else if(test[i] === 3) {
+        test[i] = "sorry we cant do that.";
+      }
+
+
     }
     console.log(test);
   })
