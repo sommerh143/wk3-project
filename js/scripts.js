@@ -8,8 +8,9 @@ $(function(){
     for(var i = 0; i <test.length;  i+= 1)
     {
       if(test[i] === 1) {
-      // var numberone = test.replace("1", "Boo!");
+       test[i]="Boo!"
        console.log(test);
+       break;
       }else{
         alert("no");
       }
