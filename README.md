@@ -10,7 +10,13 @@ _You will enter in a number and the computer will utput al the numbers before th
 
 ## Setup/Installation Requirements
 
-* 
+* go to gitgub pagis
+* clone or download link
+* open up the terminal and type "clone https://github.com/sommerh143/wk3-project.git"
+* then cd to the file called wk3-project"
+* when in that folder type open code .
+* then drag index.html to the webbrowser you are using.
+
 ## DBB
 
 * return a anything that is not a number.
@@ -31,10 +37,10 @@ _You will enter in a number and the computer will utput al the numbers before th
   
 ## Known Bugs
 
-_N/A_
+_does not return beep bop or sorry on all the numbers with a 1 2 or 3._
 
 ## GH Pages Link
-_N/A_
+_https://sommerh143.github.io/wk3-project/_
 
 ## Support and contact details
 
@@ -42,10 +48,10 @@ _{contack info: email- sommerh143@yahoo.com}_
 
 ## Technologies Used
 
-_{languages: librarys:_
+_{languages: javascript librarys:jquary_
 
 ### License
 
-*n/a*
+*mic?*
 
 Copyright (c) 2020 **_{Sommer Howe}_**
