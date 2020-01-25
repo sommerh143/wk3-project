@@ -3,16 +3,26 @@ $(function(){
   $("form#inputBox").submit(function(event){
     event.preventDefault();
     var number = parseInt($("input#Entered").val());
-    var test = Array(number += 1).fill(0).map((x, y) => x + y);
+    var numbers = Array(number += 1).fill(0).map((x, y) => x + y);
     //var testone = test.toString();
-
-    //if(testone)
-    // var test2 = test.map(function(one){
-    //   return one.index
-    // }).indexof(index)
     
-    test.splice("1");
+    numbers.forEach(function(num){
+      if (numbers === 1) {
+           number="Boo!"
+          } else if(numbers === 2 ) {
+          number = "Bop!";
+          } else if(numbers === 3) {
+            number = "sorry we cant do that.";
+          }
 
+
+
+
+    })
+  
+
+   
+  
 
 
 
@@ -27,6 +37,6 @@ $(function(){
     //   }
      
     // }
-    console.log(test);
+    console.log(numbers);
   })
 })
