@@ -4,10 +4,12 @@ $(function(){
     event.preventDefault();
     var number = parseInt($("input#Entered").val());
     var numbers = Array(number += 1).fill(0).map((x, y) => x + y);
-    var one = "1" ;
-    var indexof1 = numbers.indexOf(one);
-    console.log(indexof1);
-     
+   var one = 1
+    var newnumbers = numbers.toString();
+    console.log(newnumbers);
+
+    newnumbers.replace( 1 , "bpp");
+
     // numbers.forEach(function(num){
     //   if (numbers === 1) {
     //        number="Boo!"
