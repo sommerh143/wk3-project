@@ -4,21 +4,23 @@ $(function(){
     event.preventDefault();
     var number = parseInt($("input#Entered").val());
     var numbers = Array(number += 1).fill(0).map((x, y) => x + y);
-    //var testone = test.toString();
-    
-    numbers.forEach(function(num){
-      if (numbers === 1) {
-           number="Boo!"
-          } else if(numbers === 2 ) {
-          number = "Bop!";
-          } else if(numbers === 3) {
-            number = "sorry we cant do that.";
-          }
+    var one = "1" ;
+    var indexof1 = numbers.indexOf(one);
+    console.log(indexof1);
+     
+    // numbers.forEach(function(num){
+    //   if (numbers === 1) {
+    //        number="Boo!"
+    //       } else if(numbers === 2 ) {
+    //       number = "Bop!";
+    //       } else if(numbers === 3) {
+    //         number = "sorry we cant do that.";
+    //       }
 
 
 
 
-    })
+    // })
   
 
    
@@ -37,6 +39,6 @@ $(function(){
     //   }
      
     // }
-    console.log(numbers);
+    // console.log(numbers);
   })
 })
