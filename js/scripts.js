@@ -6,14 +6,14 @@ $(function(){
     
     for (var i = 0; i <= number; i+= 1){
       if (i % 3 == 0) {
-        if(i === /3/g){
-         console.log('Fiizz');
+        if(i === 3){
+         console.log('Boop!');
         } else {
           console.log(i);
         }
         
-      } else if (i % 5 == 0){
-        console.log('Buzz');
+      } else if (i % 2 == 0){
+        console.log('Bop!');
       } else if (i % 3 == 0 && i % 5 == 0) {
         console.log('fizzBuzz');
       } else {
