@@ -15,7 +15,7 @@ $(document).ready(function () {
         map1.splice(i, 1, "Boop!");   //changes index contents to "boop"
       }
     }
-    console.log(map1);  //displays map1 to terminal
-    $(".answer").append(map1);   // inputs map1 to the index.html.
+    $(".answer").text(map1);// inputs map1 to the index.html.
+
   });
 });
